@@ -3,6 +3,12 @@ var recipes = {
 }
 
 
+function deleteFromObjectByKey(object, key){
+    var newObj = Object.assign({}, object, { [key]: value })
+    delete object[key];
+    return recipes
+}
+
 function  destructivelyDeleteFromObjectByKey(object, key){
     delete object[key]
     return recipes
