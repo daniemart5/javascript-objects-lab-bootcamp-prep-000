@@ -17,8 +17,7 @@ function deleteFromObjectByKey(object, key){
     delete object[key];
     return recipes
 }
-=======
->>>>>>> b8ce778ad22746dca6be705468a6068bad73653a
+
 
 function  destructivelyDeleteFromObjectByKey(object, key){
     delete object[key]
